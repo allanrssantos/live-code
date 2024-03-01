@@ -20,7 +20,7 @@ export default function Card(data: Partial<ProductList>) {
     return (
         <CardContainer>
             <Image src={ThumbnailURL} alt={Name}/>
-            <Title>Name</Title>
+            <Title>{Name}</Title>
         </CardContainer>
     )
 }
